@@ -1,0 +1,24 @@
+{
+  "name": "qiaoda/utils",
+  "version": "1.0.0",
+  "description": "base service",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "luojianglai",
+      "email": "luojianglai"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lib\\Request\\": "request/",
+      "Lib\\Log\\": "log/",
+      "Lib\\Crypt\\": "crypt/",
+      "Lib\\File\\": "file/",
+      "Lib\\ThirdLib\\": "thirdLib/"
+    }
+  },
+  "require": {
+    "ramsey/uuid": "^2.8.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "phalcon/mvc",
+  "description": "phalcon",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "**",
+      "email": "**.com"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "require": {
+    "ext-phalcon": "*",
+    "ext-json": "*",
+    "ext-mcrypt": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "predis/predis": "^1.1",
+    "ramsey/uuid": "^2.8.2",
+    "phpoffice/phpword": "^0.14.0",
+    "workerman/workerman": "^3.5",
+    "moontoast/math": "^1.1"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "*"
+  }
+}
